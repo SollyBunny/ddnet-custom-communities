@@ -15,7 +15,7 @@ People want more communities and people are slow!
 > Yeah this isn't anything yet, so gimme a minute
 
 * More than 1 physical server (different IP)
-* More than 3 DDNet servers (different port)
+* More than 3 game servers (different port)
 * All servers start with the community name
 * Moderators which can be contacted in game or through Discord or through the web
 * A discord server or website
