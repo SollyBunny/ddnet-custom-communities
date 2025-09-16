@@ -7,7 +7,7 @@ People want more communities and people are slow!
 
 ## Clients implementing this
 
-* [None, rekt](https://www.youtube.com/watch?v=E4WlUXrJgy4)
+* [TClient](https://github.com/sjrc6/TaterClient-ddnet) (since 10.6.0)
 
 ## How to add your own community 
 
