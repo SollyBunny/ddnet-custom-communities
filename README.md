@@ -24,4 +24,4 @@ People want more communities and people are slow!
 
 If you meet these requirements you can create a pull request with your community
 
-Do note that these rules can be bent both ways and are subject to mine and others judgement
+Do note that these rules can be bent both ways and are subject to mine and others' judgement
