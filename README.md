@@ -11,24 +11,18 @@ People want more communities and people are slow!
 
 ## Requirements
 
-* Some servers
-* Moderators
+* You have atleast 3 game servers
+* Some moderators
 * Reports in game, through Discord or web
 * A Discord server or website in /info or MOTD
 * Follows master server rules, seen [here](https://ddnet.org/rules/master/)
 * Servers have /rules similar to DDNet
-
-I prefer if
 * All servers start with the community name
-* You have atleast 3 servers
+
+Do note that these rules can be bent both ways and are subject to mine and others' judgement
 
 ## How to add your own community 
 
 1. Meet requirements
 2. Create a PR with your icon and servers added to the JSON
 3. Win
-
-
-If you meet these requirements you can create a pull request with your community
-
-Do note that these rules can be bent both ways and are subject to mine and others' judgement
