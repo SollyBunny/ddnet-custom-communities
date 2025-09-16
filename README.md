@@ -9,18 +9,25 @@ People want more communities and people are slow!
 
 * [TClient](https://github.com/sjrc6/TaterClient-ddnet) (since 10.5.3)
 
+## Requirements
+
+* Some servers
+* Moderators
+* Reports in game, through Discord or web
+* A Discord server or website in /info or MOTD
+* Follows master server rules, seen [here](https://ddnet.org/rules/master/)
+* Servers have /rules similar to DDNet
+
+I prefer if
+* All servers start with the community name
+* You have atleast 3 servers
+
 ## How to add your own community 
 
-> [!NOTE]
-> Yeah this isn't anything yet, so gimme a minute
+1. Meet requirements
+2. Create a PR with your icon and servers added to the JSON
+3. Win
 
-* More than 1 physical server (different IP)
-* More than 3 game servers (different port)
-* All servers start with the community name
-* Moderators which can be contacted in game or through Discord or through the web
-* A discord server or website
-* A community ICON similar to existing ones which looks good
-* Follows master server rules
 
 If you meet these requirements you can create a pull request with your community
 
