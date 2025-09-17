@@ -1,0 +1,56 @@
+{
+	"$comment": "If you edit this file, make sure to run ./scripts/schema/compile.mjs",
+	"type": "object",
+	"properties": {
+		"communities": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": { "type": "string" },
+					"name": { "type": "string" },
+					"has_finishes": { "type": "boolean" },
+					"icon": {
+						"type": "object",
+						"properties": {
+							"sha256": { "type": "string" },
+							"url": { "type": "string" },
+							"servers": {
+								"type": "array",
+								"items": {
+									"type": "object",
+									"properties": {
+										"name": { "type": "string" },
+										"flagId": { "type": "integer" },
+										"servers": {
+											"type": "object",
+											"patternProperties": {
+												"^[a-zA-Z0-9]+$": {
+													"type": "array",
+													"items": { "type": "string" }
+												}
+											},
+											"additionalProperties": false
+										}
+									},
+									"required": ["name", "flagId", "servers"],
+									"additionalProperties": false
+								}
+							}
+						},
+						"required": ["sha256", "url", "servers"],
+						"additionalProperties": false
+					},
+					"contact_urls": {
+						"type": "array",
+						"items": { "type": "string" }
+					}
+				},
+				"required": ["id", "name", "has_finishes", "icon", "contact_urls"],
+				"additionalProperties": false
+			}
+		}
+	},
+	"required": ["communities"],
+	"additionalProperties": false
+}
