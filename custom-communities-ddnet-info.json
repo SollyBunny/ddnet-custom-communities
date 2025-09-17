@@ -38,6 +38,52 @@
 				"https://awb-clan.com/",
 				"http://discord.awb-clan.com/"
 			]
+		},
+		{
+			"id": "away",
+			"name": "Away",
+			"has_finishes": false6,
+			"icon": {
+				"sha256": "62f8677baf457cb8ee421b65ed5c9225f9bf903ec0881569280be02e8fbdf12b",
+				"url": "https://raw.githubusercontent.com/SollyBunny/ddnet-custom-communities/refs/heads/main/icons/away.png"
+				"servers": [
+					{
+						"name": "BRA",
+						"flagId": 0,
+						"servers": {
+							"InfClass": [
+								"172.233.20.167:8305"
+							],
+							"Gores": [
+								"172.233.20.167:8304",
+								"172.233.20.167:8303"
+							],
+							"TestDDr": [
+								"164.152.33.222:8309"
+							],
+							"Monster": [
+								"164.152.33.222:8308"
+							],
+							"Bomb": [
+								"164.152.33.222:8307"
+							],
+							"Foot": [
+								"164.152.33.222:8306"
+							],
+							"TrainFNG": [
+								"164.152.33.222:8305"
+							],
+							"FNG": [
+								"164.152.33.222:8304",
+								"164.152.33.222:8303"
+							]
+						}
+					}
+				]
+			},
+			"contact_urls": [
+				"https://discord.gg/M4hCVnyyZ2"
+			]
 		}
 	]
 }
