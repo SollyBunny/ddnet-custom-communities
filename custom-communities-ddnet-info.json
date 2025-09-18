@@ -138,6 +138,33 @@
 			"contact_urls": [
 				"https://discord.gg/NH2GR4Vayv"
 			]
+		},
+		{
+			"id": "pluskz",
+			"name": "+KZ Community",
+			"has_finishes": false,
+			"icon": {
+				"sha256": "6cc36b4dc7bc375111fe82214bdc21492c69296fd0ae492d3bd5b2c25e004c78",
+				"url": "https://raw.githubusercontent.com/SollyBunny/ddnet-custom-communities/refs/heads/main/icons/pluskz.png",
+				"servers": [
+					{
+						"name": "SA",
+						"flagId": 0,
+						"servers": {
+							"Instagib/Vanilla": [
+								"38.7.199.195:8304",
+								"38.7.199.195:8309"
+							],
+							"Block": [
+								"38.7.199.195:8306"
+							]
+						}
+					}
+				]
+			},
+			"contact_urls": [
+				"https://m0rekz.github.io/discord.html"
+			]
 		}
 	]
 }
