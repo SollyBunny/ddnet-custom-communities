@@ -151,7 +151,7 @@
 						"name": "SA",
 						"flagId": 0,
 						"servers": {
-							"Instagib/Vanilla": [
+							"Vanilla+": [
 								"38.7.199.195:8304",
 								"38.7.199.195:8309"
 							],
@@ -164,6 +164,40 @@
 			},
 			"contact_urls": [
 				"https://m0rekz.github.io/discord.html"
+			]
+		},
+		{
+			"id": "ddfightnetwork",
+			"name": "DDFightNetwork",
+			"has_finishes": false,
+			"icon": {
+				"sha256": "dcfc5f4becba19da7b134cbf3954d745529f7ad9c36afc95cd462cf3acf16651",
+				"url": "https://raw.githubusercontent.com/SollyBunny/ddnet-custom-communities/refs/heads/main/icons/ddfightnetwork.png",
+				"servers": [
+					{
+						"name": "EUR",
+						"flagId": 905,
+						"servers": {
+							"DDFightNetwork": [
+								"185.254.96.206:8309",
+								"185.254.96.206:8308",
+								"185.254.96.206:8303",
+								"185.254.96.206:8302",
+								"185.254.96.206:8301"
+							],
+							"DDrace": [
+								"185.254.96.206:8310",
+								"185.254.96.206:8307",
+								"185.254.96.206:8306",
+								"185.254.96.206:8305",
+								"185.254.96.206:8304"
+							]
+						}
+					}
+				]
+			},
+			"contact_urls": [
+				"https://discord.gg/NHu9z5DhD9"
 			]
 		}
 	]
