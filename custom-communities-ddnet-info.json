@@ -178,7 +178,7 @@
 			"name": "TeeCloud Network",
 			"has_finishes": false,
 			"icon": {
-				"sha256": "1b12fb984497d271ff75ff0c2f1ff947e76b828a233988f8e716f65f26f4a113",
+				"sha256": "29377cae559a53f04b3ea93c59dd9ccff2b050a704d9a66c9b948ca931d31f81",
 				"url": "https://raw.githubusercontent.com/SollyBunny/ddnet-custom-communities/refs/heads/main/icons/teecloud.png",
 				"servers": [
 					{
