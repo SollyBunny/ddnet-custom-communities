@@ -249,6 +249,38 @@
 				"https://dsc.gg/up-network",
 				"https://t.me/up_network"
 			]
+		},
+		{
+			"id": "souly",
+			"name": "Souly stuff",
+			"has_finishes": false,
+			"icon": {
+				"sha256": "30143a46c643bcc2b02a7e1aaa286878d682718f622a41fbe02d2b55a27eb406",
+				"url": "https://raw.githubusercontent.com/SollyBunny/ddnet-custom-communities/refs/heads/main/icons/souly.png",
+				"servers": [
+					{
+						"name": "EUR",
+						"flagId": 905,
+						"servers": {
+							"TestDDraceNetwork": [
+								"45.141.57.68:8300",
+								"45.141.57.68:8301",
+								"45.141.57.68:8302",
+								"45.141.57.68:8303",
+								"45.141.57.68:8304",
+								"45.141.57.68:8305",
+								"45.141.57.68:8306",
+								"45.141.57.68:8307",
+								"45.141.57.68:8308",
+								"45.141.57.68:8309"
+							]
+						}
+					}
+				]
+			},
+			"contact_urls": [
+				"https://discord.gg/xpHMrX2xGT"
+			]
 		}
 	]
 }
