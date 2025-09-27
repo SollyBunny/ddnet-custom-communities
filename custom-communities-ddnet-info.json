@@ -1,6 +1,33 @@
 {
 	"communities": [
 		{
+			"id": "teeunion",
+			"name": "TeeUnion",
+			"has_finishes": false,
+			"icon": {
+				"sha256": "048a5ea92522cd6c0becb9cda3efaeca9c8ac2d53821416c159eff5543867d89",
+				"url": "https://raw.githubusercontent.com/SollyBunny/ddnet-custom-communities/refs/heads/main/icons/teeunion.png",
+				"servers": [
+					{
+						"name": "RUS",
+						"flagId": 643,
+						"servers": {
+							"Block": [
+								"194.93.2.170:8500",
+								"194.93.2.170:8501",
+								"194.93.2.170:8502",
+								"194.93.2.170:8503",
+								"194.93.2.170:8504"
+							]
+						}
+					}
+				]
+			},
+			"contact_urls": [
+				"https://teeunion.ru"
+			]
+		},
+		{
 			"id": "awb",
 			"name": "AwB",
 			"has_finishes": false,
