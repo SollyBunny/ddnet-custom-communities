@@ -8,6 +8,7 @@ People want more communities and people are slow!
 ## Clients implementing this
 
 * [TClient](https://github.com/sjrc6/TaterClient-ddnet) (since 10.5.3)
+* [Kaizo Network Client](https://github.com/M0REKZ/kaizo-network)
 
 ## Requirements
 
