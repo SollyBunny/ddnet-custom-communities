@@ -443,7 +443,7 @@
 			"name": "Legit Network",
 			"has_finishes": false,
 			"icon": {
-				"sha256": "4e2f0c458a1a259522d10c0f9806eef9a562c2b966aa136f7108f3e131dc7af3",
+				"sha256": "2b3425462e768c9d3794de2b61e1d2bcebc351ac33fc361bdc95827f28bf3801",
 				"url": "https://raw.githubusercontent.com/SollyBunny/ddnet-custom-communities/refs/heads/main/icons/legit.png",
 				"servers": [
 					{
