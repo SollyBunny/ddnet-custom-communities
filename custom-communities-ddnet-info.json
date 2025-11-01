@@ -488,7 +488,7 @@
 					},
 					{
 						"name": "FRA",
-						"flagId": 643,
+						"flagId": 276,
 						"servers": {
 							"Gores": [
 								"64.188.70.230:8300",
