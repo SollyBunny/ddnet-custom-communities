@@ -496,7 +496,7 @@
 					},
 					{
 						"name": "TUR",
-						"flagId": 276,
+						"flagId": 792,
 						"servers": {
 							"Block": [
 								"62.60.233.8:8000",
