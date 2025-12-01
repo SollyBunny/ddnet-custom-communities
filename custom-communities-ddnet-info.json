@@ -699,6 +699,44 @@
 			"contact_urls": [
 				"https://legitnetwork.xyz"
 			]
+		},
+		{
+			"id": "foxnet",
+			"name": "FoxNetwork",
+			"has_finishes": false,
+			"icon": {
+				"sha256": "5d2b8bc404a364457453e434e7789b9e76d4ac9bda7e689947c2c89768fe5dfb",
+				"url": "https://raw.githubusercontent.com/SollyBunny/ddnet-custom-communities/refs/heads/main/icons/foxnet.png",
+				"servers": [
+					{
+						"name": "EUR",
+						"flagId": 905,
+						"servers": {
+							"FoxNet Gores": [
+								"85.215.138.194:8303",
+								"85.215.138.194:8304",
+								"85.215.138.194:8305",
+								"85.215.138.194:8306",
+								"85.215.138.194:8307",
+								"85.215.138.194:8308",
+								"85.215.138.194:8309",
+								"85.215.138.194:8310",
+								"85.215.138.194:8311",
+								"85.215.138.194:8312",
+								"85.215.138.194:8313",
+								"85.215.138.194:8314",
+								"85.215.138.194:8315",
+								"85.215.138.194:8316",
+								"85.215.138.194:8317",
+								"85.215.138.194:8318"
+							]
+						}
+					}
+				]
+			},
+			"contact_urls": [
+				"https://discord.gg/ZH4ZuPkuK7"
+			]
 		}
 	]
 }
