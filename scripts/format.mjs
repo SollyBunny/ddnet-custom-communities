@@ -117,16 +117,16 @@ async function getServerData() {
 			console.warn(`Non unqiue ID in master: ${ID}`);
 		if (!IsNameUnique(name))
 			console.warn(`Non unqiue name in master: ${name}`);
-		if (servers) {
-			for (const server of servers) {
-				if (!verifyFlagRegion(server.name, server.flagId))
-					console.warn(`Invalid flag region in master: ${server.name} ${server.flagId}`);
-				for (const [gamemode, IPs] of Object.entries(server.servers)) {
-					gamemodes.add(gamemode);
-					for (const IP of IPs) {
-						if (!IsIPUnique(IP))
-							console.warn(`Non unique IP in master: ${IP}`);
-					}
+		if (!servers)
+			continue;
+		for (const server of servers) {
+			if (!verifyFlagRegion(server.name, server.flagId))
+				console.warn(`Invalid flag region in master: ${server.name} ${server.flagId}`);
+			for (const [gamemode, IPs] of Object.entries(server.servers)) {
+				gamemodes.add(gamemode);
+				for (const IP of IPs) {
+					if (!IsIPUnique(IP))
+						console.warn(`Non unique IP in master: ${IP}`);
 				}
 			}
 		}
@@ -167,6 +167,8 @@ async function verifyLocalData() {
 					}
 				}
 			}
+		} else {
+			CIError(`Empty servers: ${ID}`);
 		}
 		// Extra verification for local
 		if (hasFinishes)
