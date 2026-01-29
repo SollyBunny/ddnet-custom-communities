@@ -15,7 +15,6 @@ People want more communities and people are slow!
 
 Sorted by order of addition. Maintainers are responsible for updating the data here but don't necessarily own the servers.
 
-* [AwB](https://awb-clan.com/) maintained by [@SollyBunny](https://github.com/SollyBunny)
 * [Away](https://discord.gg/M4hCVnyyZ2) maintained by [@tsk-xp](https://github.com/xp)
 * [TeeZone](https://discord.gg/NH2GR4Vayv) maintained by [@WsYFU](https://github.com/WsYFU)
 * [DDFightNetwork](https://ddfight.net) maintained by [@swarfeya](https://github.com/swarfeya)

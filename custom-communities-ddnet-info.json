@@ -1,45 +1,6 @@
 {
 	"communities": [
 		{
-			"id": "awb",
-			"name": "AwB",
-			"has_finishes": false,
-			"icon": {
-				"sha256": "cbc30beb010d336cb35b916b7e4de468c16c664da48eb85f95346794abd10e93",
-				"url": "https://raw.githubusercontent.com/SollyBunny/ddnet-custom-communities/refs/heads/main/icons/awb.png",
-				"servers": [
-					{
-						"name": "GER",
-						"flagId": 0,
-						"servers": {
-							"Gores": [
-								"49.13.73.199:8300",
-								"49.13.73.199:8301",
-								"20.215.41.104:8301",
-								"20.215.41.104:8305",
-								"49.13.73.199:8302",
-								"20.215.41.104:8300",
-								"20.215.41.104:8302",
-								"20.215.41.104:8303",
-								"20.215.41.104:8304",
-								"20.215.41.104:8306",
-								"20.215.41.104:8307",
-								"20.215.41.104:8308",
-								"49.13.73.199:8304"
-							],
-							"TestGores": [
-								"49.13.73.199:8305"
-							]
-						}
-					}
-				]
-			},
-			"contact_urls": [
-				"https://awb-clan.com/",
-				"https://discord.awb-clan.com/"
-			]
-		},
-		{
 			"id": "away",
 			"name": "Away",
 			"has_finishes": false,
