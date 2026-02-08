@@ -18,7 +18,7 @@ Sorted by order of addition. Maintainers are responsible for updating the data h
 * [Away](https://discord.gg/M4hCVnyyZ2) maintained by [@tsk-xp](https://github.com/xp)
 * [TeeZone](https://discord.gg/NH2GR4Vayv) maintained by [@WsYFU](https://github.com/WsYFU)
 * [DDFightNetwork](https://ddfight.net) maintained by [@swarfeya](https://github.com/swarfeya)
-* [TeeCloud Network](https://discord.gg/crS6bzNNqm) maintained by [@Amentic](https://github.com/Amentic)
+* [TeeCloud Network](https://discord.gg/crS6bzNNqm) maintained by [@Ametic](https://github.com/Ametic)
 * [Umbrella](https://dsc.gg/up-network) maintained by [@sqwinixxx](https://github.com/sqwinixxx)
 * [Souly stuff](https://discord.gg/xpHMrX2xGT) maintained by [@SoulyVEVO](https://github.com/SoulyVEVO)
 * [TeeUnion](https://teeunion.ru) maintained by [@Sedonya](https://github.com/Sedonya)
