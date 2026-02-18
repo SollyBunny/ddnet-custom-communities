@@ -10,6 +10,7 @@ People want more communities and people are slow!
 * [TClient](https://github.com/TaterClient/TClient) (since 10.5.3)
 * [Kaizo Client](https://github.com/M0REKZ/kaizo-client)
 * [Entity Client](https://github.com/FoxNet-DDNet/Entity-Client-DDNet) (since v1.5.0)
+* [Duck 'n' Infclass Client](https://github.com/Pointer31/ddnet_client)
 
 ## Custom communities currently added
 
