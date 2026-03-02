@@ -756,6 +756,70 @@
 			"contact_urls": [
 				"https://discord.gg/ZH4ZuPkuK7"
 			]
+		},
+		{
+			"id": "cazar",
+			"name": "cazar",
+			"has_finishes": false,
+			"icon": {
+				"sha256": "299520ef20a309f61bf07a77a60fbb8907a04ba89d1f7b9680553edc689d3f3d",
+				"url": "https://raw.githubusercontent.com/SollyBunny/ddnet-custom-communities/refs/heads/main/icons/cazar.png",
+				"servers": [
+					{
+						"name": "EUR",
+						"flagId": 276,
+						"servers": {
+							"FNG": [
+								"46.225.67.88:8301",
+								"46.225.67.88:8302",
+								"46.225.67.88:8303"
+							],
+							"Boomfng": [
+								"46.225.67.88:8304",
+								"46.225.67.88:8305"
+							],
+							"solofng": [
+								"46.225.67.88:8306"
+							],
+							"bolofng": [
+								"46.225.67.88:8307"
+							],
+							"iCTF": [
+								"46.225.67.88:8308",
+								"46.225.67.88:8309"
+							],
+							"gCTF": [
+								"46.225.67.88:8311",
+								"46.225.67.88:8312"
+							],
+							"iDM": [
+								"46.225.67.88:8313"
+							],
+							"gDM": [
+								"46.225.67.88:8314"
+							],
+							"iTDM": [
+								"46.225.67.88:8315"
+							],
+							"gTDM": [
+								"46.225.67.88:8316"
+							],
+							"zCatch": [
+								"46.225.67.88:8317",
+								"46.225.67.88:8318"
+							]
+							
+
+
+						}
+					}
+				]
+			},
+			"contact_urls": [
+				"https://cazar.xyz/",
+				"https://discord.com/invite/CvX2naHm6k"
+			]
 		}
+		
 	]
 }

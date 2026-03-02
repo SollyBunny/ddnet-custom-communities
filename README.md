@@ -25,6 +25,7 @@ Sorted by order of addition. Maintainers are responsible for updating the data h
 * [TeeUnion](https://teeunion.ru) maintained by [@Sedonya](https://github.com/Sedonya)
 * [Legit Network](https://legitnetwork.xyz) maintained by [@ka3drtw](https://github.com/ka3drtw)
 * [FoxNetwork](https://discord.gg/ZH4ZuPkuK7) maintained by [@qxdFox](https://github.com/qxdFox)
+* [cazar](https://cazar.xyz) maintained by [@efe](https://github.com/efehubs)
 
 ## Requirements
 
