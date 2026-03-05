@@ -819,6 +819,40 @@
 				"https://cazar.xyz/",
 				"https://discord.com/invite/CvX2naHm6k"
 			]
+		},
+		{
+			"id": "pointerslabs",
+			"name": "Pointer's Labs",
+			"has_finishes": false,
+			"icon": {
+				"sha256": "cd8879290cb59da34ddae8da5997d9f25c83862074f9b7eca7a9f6b0a9ce9927",
+				"url": "https://raw.githubusercontent.com/SollyBunny/ddnet-custom-communities/refs/heads/main/icons/pointerslabs.png",
+				"servers": [
+					{
+						"name": "EUR",
+						"flagId": 276,
+						"servers": {
+							"Vanillaish": [
+								"135.125.206.178:8301",
+								"135.125.206.178:8302",
+								"135.125.206.178:8303"
+							],
+							"TestDDr": [
+								"135.125.206.178:8304"
+							],
+							"Kaizo": [
+								"135.125.206.178:8305"
+							],
+							"InfClass": [
+								"135.125.206.178:8306"
+							]
+						}
+					}
+				]
+			},
+			"contact_urls": [
+				"https://matrix.to/#/#pointerslabs-space:matrix.org"
+			]
 		}
 		
 	]
