@@ -26,6 +26,7 @@ Sorted by order of addition. Maintainers are responsible for updating the data h
 * [Legit Network](https://legitnetwork.xyz) maintained by [@ka3drtw](https://github.com/ka3drtw)
 * [FoxNetwork](https://discord.gg/ZH4ZuPkuK7) maintained by [@qxdFox](https://github.com/qxdFox)
 * [cazar](https://cazar.xyz) maintained by [@cazar](https://github.com/cazar-clan)
+* [Pointer's Labs](https://matrix.to/#/#pointerslabs-space:matrix.org) maintained by [@Pointer31](https://github.com/pointer31)
 
 ## Requirements
 
