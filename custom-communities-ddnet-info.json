@@ -149,38 +149,6 @@
 			]
 		},
 		{
-			"id": "teecloud",
-			"name": "TeeCloud Network",
-			"has_finishes": false,
-			"icon": {
-				"sha256": "29377cae559a53f04b3ea93c59dd9ccff2b050a704d9a66c9b948ca931d31f81",
-				"url": "https://raw.githubusercontent.com/SollyBunny/ddnet-custom-communities/refs/heads/main/icons/teecloud.png",
-				"servers": [
-					{
-						"name": "EUR",
-						"flagId": 905,
-						"servers": {
-							"TestCloud": [
-								"176.31.209.241:8303",
-								"176.31.209.241:8308"
-							],
-							"TeeCloud": [
-								"176.31.209.241:8304",
-								"176.31.209.241:8305",
-								"176.31.209.241:8306"
-							],
-							"solofng": [
-								"176.31.209.241:8307"
-							]
-						}
-					}
-				]
-			},
-			"contact_urls": [
-				"https://discord.gg/crS6bzNNqm"
-			]
-		},
-		{
 			"id": "umbrella",
 			"name": "Umbrella",
 			"has_finishes": false,
