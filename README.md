@@ -19,6 +19,7 @@ Sorted by order of addition. Maintainers are responsible for updating the data h
 * [Away](https://discord.gg/M4hCVnyyZ2) maintained by [@tsk-xp](https://github.com/xp)
 * [DDFightNetwork](https://ddfight.net) maintained by [@swarfeya](https://github.com/swarfeya)
 * [Souly stuff](https://discord.gg/xpHMrX2xGT) maintained by [@SoulyVEVO](https://github.com/SoulyVEVO)
+* [TeeUnion](https://teeunion.ru) maintained by [@Sedonya](https://github.com/Sedonya)
 * [Legit Network](https://legitnetwork.xyz) maintained by [@ka3drtw](https://github.com/ka3drtw)
 * [FoxNetwork](https://discord.gg/ZH4ZuPkuK7) maintained by [@qxdFox](https://github.com/qxdFox)
 * [cazar](https://cazar.xyz) maintained by [@cazar](https://github.com/cazar-clan)
