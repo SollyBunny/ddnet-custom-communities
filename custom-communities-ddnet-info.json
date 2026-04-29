@@ -129,6 +129,39 @@
 			]
 		},
 		{
+			"id": "teeunion",
+			"name": "TeeUnion",
+			"has_finishes": false,
+			"icon": {
+				"sha256": "048a5ea92522cd6c0becb9cda3efaeca9c8ac2d53821416c159eff5543867d89",
+				"url": "https://raw.githubusercontent.com/SollyBunny/ddnet-custom-communities/refs/heads/main/icons/teeunion.png",
+				"servers": [
+					{
+						"name": "RUS",
+						"flagId": 643,
+						"servers": {
+							"Block": [
+								"212.22.85.148:8500",
+								"212.22.85.148:8501",
+								"212.22.85.148:8502",
+								"212.22.85.148:8503",
+								"212.22.85.148:8504",
+								"212.22.85.148:8505",
+								"212.22.85.148:8506",
+								"212.22.85.148:8507",
+								"212.22.85.148:8508",
+								"212.22.85.148:8509",
+								"212.22.85.148:8510"
+							]
+						}
+					}
+				]
+			},
+			"contact_urls": [
+				"https://teeunion.ru"
+			]
+		},
+		{
 			"id": "legit",
 			"name": "Legit Network",
 			"has_finishes": false,
