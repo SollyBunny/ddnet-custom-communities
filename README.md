@@ -17,9 +17,7 @@ People want more communities and people are slow!
 Sorted by order of addition. Maintainers are responsible for updating the data here but don't necessarily own the servers.
 
 * [Away](https://discord.gg/M4hCVnyyZ2) maintained by [@tsk-xp](https://github.com/xp)
-* [TeeZone](https://discord.gg/NH2GR4Vayv) maintained by [@WsYFU](https://github.com/WsYFU)
 * [DDFightNetwork](https://ddfight.net) maintained by [@swarfeya](https://github.com/swarfeya)
-* [Umbrella](https://dsc.gg/up-network) maintained by [@sqwinixxx](https://github.com/sqwinixxx)
 * [Souly stuff](https://discord.gg/xpHMrX2xGT) maintained by [@SoulyVEVO](https://github.com/SoulyVEVO)
 * [TeeUnion](https://teeunion.ru) maintained by [@Sedonya](https://github.com/Sedonya)
 * [Legit Network](https://legitnetwork.xyz) maintained by [@ka3drtw](https://github.com/ka3drtw)
