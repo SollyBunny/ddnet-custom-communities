@@ -365,7 +365,7 @@
 			"has_finishes": false,
 			"icon": {
 				"sha256": "2e2d98be546ebc2ef5547a0e225fa54685705c65309fa54bd5a09e499ce1eef2",
-				"url": "https://raw.githubusercontent.com/OffMoluc/ddnet-custom-communities/refs/heads/main/icons/ego.png", 
+				"url": "https://raw.githubusercontent.com/OffMoluc/ddnet-custom-communities/refs/heads/main/icons/ego.png",
 				"servers": [
 					{
 						"name": "EUR",
