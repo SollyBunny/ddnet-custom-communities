@@ -39,7 +39,7 @@ async function getPNGMeta(path) {
 
 async function exists(path) {
 	try {
-		fs.access(path);
+		await fs.access(path);
 		return true;
 	} catch (e) {
 		return false;
@@ -138,8 +138,8 @@ async function iconsToLowerCase() {
 	for (const file of await fs.readdir("icons")) {
 		const lower = file.toLowerCase();
 		if (file !== lower) {
-			const oldPath = path.join(dir, file);
-			const newPath = path.join(dir, lower);
+			const oldPath = path.join("icons", file);
+			const newPath = path.join("icons", lower);
 			await CIErrorFixable(`Warn icon not lower case: ${oldPath}`, async () => await fs.rename(oldPath, newPath));
 		}
 	}
@@ -188,7 +188,7 @@ async function verifyLocalData() {
 			if (iconName.toLowerCase() !== iconName)
 				await CIErrorFixable(`Icon name not lowercase: ${iconName}`, () => community.icon.url = PREFIX + iconName.toLowerCase());
 			const iconPath = `./icons/${iconName}`;
-			if (exists(iconPath)) {
+			if (await exists(iconPath)) {
 				const PNGMeta = await getPNGMeta(iconPath);
 				if (PNGMeta) {
 					const { width, height, SHA256 } = PNGMeta;
