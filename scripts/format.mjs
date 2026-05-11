@@ -37,9 +37,23 @@ async function getPNGMeta(path) {
 	};
 }
 
+async function getMagicBytes(path) {
+	const buffer = await fs.readFile(path);
+	let out = "";
+	for (let i = 0; i < 16; ++i) {
+		if (
+			(buffer[i] >= "A".charCodeAt(0) && buffer[i] <= "Z".charCodeAt(0)) ||
+			(buffer[i] >= "a".charCodeAt(0) && buffer[i] <= "z".charCodeAt(0)) ||
+			(buffer[i] >= "0".charCodeAt(0) && buffer[i] <= "9".charCodeAt(0)) ||
+			(buffer[i] === "-".charCodeAt(0) || buffer[i] === "_".charCodeAt(0))
+		) out += String.fromCharCode(buffer[i]);
+	}
+	return out ?? "???";
+}
+
 async function exists(path) {
 	try {
-		fs.access(path);
+		await fs.access(path);
 		return true;
 	} catch (e) {
 		return false;
@@ -138,8 +152,8 @@ async function iconsToLowerCase() {
 	for (const file of await fs.readdir("icons")) {
 		const lower = file.toLowerCase();
 		if (file !== lower) {
-			const oldPath = path.join(dir, file);
-			const newPath = path.join(dir, lower);
+			const oldPath = path.join("icons", file);
+			const newPath = path.join("icons", lower);
 			await CIErrorFixable(`Warn icon not lower case: ${oldPath}`, async () => await fs.rename(oldPath, newPath));
 		}
 	}
@@ -188,7 +202,7 @@ async function verifyLocalData() {
 			if (iconName.toLowerCase() !== iconName)
 				await CIErrorFixable(`Icon name not lowercase: ${iconName}`, () => community.icon.url = PREFIX + iconName.toLowerCase());
 			const iconPath = `./icons/${iconName}`;
-			if (exists(iconPath)) {
+			if (await exists(iconPath)) {
 				const PNGMeta = await getPNGMeta(iconPath);
 				if (PNGMeta) {
 					const { width, height, SHA256 } = PNGMeta;
@@ -198,7 +212,7 @@ async function verifyLocalData() {
 						await CIErrorFixable(`Icon SHA256 should be ${SHA256}: ${iconPath}`, () => community.icon.sha256 = SHA256);
 					}
 				} else {
-					CIError(`Can't read icon meta: ${iconPath}`);
+					CIError(`Can't read icon meta, is this a PNG? Magic bytes are ${await getMagicBytes(iconPath)}: ${iconPath}`);
 				}
 			} else {
 				CIError(`Can't read icon: ${iconPath}`);
