@@ -358,6 +358,38 @@
 			"contact_urls": [
 				"https://matrix.to/#/#pointerslabs-space:matrix.org"
 			]
+		},
+		{
+			"id": "ego",
+			"name": "Eternal Gores",
+			"has_finishes": false,
+			"icon": {
+				"sha256": "2e2d98be546ebc2ef5547a0e225fa54685705c65309fa54bd5a09e499ce1eef2",
+				"url": "https://raw.githubusercontent.com/SollyBunny/ddnet-custom-communities/refs/heads/main/icons/ego.png",
+				"servers": [
+					{
+						"name": "EUR",
+						"flagId": 276,
+						"servers": {
+							"E-Gores": [
+								"45.141.57.217:8300",
+								"45.141.57.217:8301",
+								"45.141.57.217:8302",
+								"45.141.57.217:8303",
+								"45.141.57.217:8304",
+								"45.141.57.217:8305",
+								"45.141.57.217:8306",
+								"45.141.57.217:8307",
+								"45.141.57.217:8308",
+								"45.141.57.217:8309"
+							]
+						}
+					}
+				]
+			},
+			"contact_urls": [
+				"https://eternal-gores.com/discord"
+			]
 		}
 	]
 }

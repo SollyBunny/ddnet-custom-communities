@@ -24,6 +24,7 @@ Sorted by order of addition. Maintainers are responsible for updating the data h
 * [FoxNetwork](https://discord.gg/ZH4ZuPkuK7) maintained by [@qxdFox](https://github.com/qxdFox)
 * [cazar](https://cazar.xyz) maintained by [@cazar](https://github.com/cazar-clan)
 * [Pointer's Labs](https://matrix.to/#/#pointerslabs-space:matrix.org) maintained by [@Pointer31](https://github.com/pointer31)
+* [Eternal Gores](https://discord.gg/vm6vGgqRvr) maintained by [@snezhnyyy](https://github.com/snezhnyyy)
 
 ## Requirements
 
