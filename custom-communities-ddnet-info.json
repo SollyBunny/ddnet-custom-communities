@@ -360,12 +360,12 @@
 			]
 		},
 		{
-			"id": "EGO",
+			"id": "ego",
 			"name": "Eternal Gores",
 			"has_finishes": false,
 			"icon": {
 				"sha256": "cf5f6110953a6e22280c6a5f037422f5da2771eba5eb0197eae8e372d54b83d9",
-				"url": "https://raw.githubusercontent.com/OffMoluc/ddnet-custom-communities/refs/heads/main/icons/EGO.png", 
+				"url": "https://raw.githubusercontent.com/OffMoluc/ddnet-custom-communities/refs/heads/main/icons/ego.png", 
 				"servers": [
 					{
 						"name": "EUR",
