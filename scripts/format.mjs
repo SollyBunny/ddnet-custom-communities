@@ -37,6 +37,20 @@ async function getPNGMeta(path) {
 	};
 }
 
+async function getMagicBytes(path) {
+	const buffer = await fs.readFile(path);
+	let out = "";
+	for (let i = 0; i < 16; ++i) {
+		if (
+			(buffer[i] >= "A".charCodeAt(0) && buffer[i] <= "Z".charCodeAt(0)) ||
+			(buffer[i] >= "a".charCodeAt(0) && buffer[i] <= "z".charCodeAt(0)) ||
+			(buffer[i] >= "0".charCodeAt(0) && buffer[i] <= "9".charCodeAt(0)) ||
+			(buffer[i] === "-".charCodeAt(0) || buffer[i] === "_".charCodeAt(0))
+		) out += String.fromCharCode(buffer[i]);
+	}
+	return out ?? "???";
+}
+
 async function exists(path) {
 	try {
 		await fs.access(path);
@@ -198,7 +212,7 @@ async function verifyLocalData() {
 						await CIErrorFixable(`Icon SHA256 should be ${SHA256}: ${iconPath}`, () => community.icon.sha256 = SHA256);
 					}
 				} else {
-					CIError(`Can't read icon meta: ${iconPath}`);
+					CIError(`Can't read icon meta, is this a PNG? Magic bytes are ${await getMagicBytes(iconPath)}: ${iconPath}`);
 				}
 			} else {
 				CIError(`Can't read icon: ${iconPath}`);
