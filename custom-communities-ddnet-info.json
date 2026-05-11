@@ -359,5 +359,38 @@
 				"https://matrix.to/#/#pointerslabs-space:matrix.org"
 			]
 		}
+		{
+			"id": "ego",
+			"name": "Eternal Gores",
+			"has_finishes": false,
+			"icon": {
+				"sha256": "cf5f6110953a6e22280c6a5f037422f5da2771eba5eb0197eae8e372d54b83d9",
+				"url": "https://raw.githubusercontent.com/OffMoluc/ddnet-custom-communities/refs/heads/main/icons/EGO.png", 
+				"servers": [
+					{
+						"name": "EUR",
+						"flagId": 276,
+						"servers": {
+							"E-Gores": [
+								"45.141.57.217:8300",
+								"45.141.57.217:8301",
+								"45.141.57.217:8302",
+								"45.141.57.217:8303",
+								"45.141.57.217:8304",
+								"45.141.57.217:8305",
+								"45.141.57.217:8306",
+								"45.141.57.217:8307",
+								"45.141.57.217:8308",
+								"45.141.57.217:8309"
+							]
+							]
+						}
+					}
+				]
+			},
+			"contact_urls": [
+				"https://discord.gg/vm6vGgqRvr"
+			]
+		}
 	]
 }
