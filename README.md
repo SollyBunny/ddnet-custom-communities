@@ -45,3 +45,6 @@ Do note that these rules can be bent both ways and are subject to mine and other
 3. Add data to `custom-communities-ddnet-info.json`
 4. Add community to `README.md`
 5. Create a PR
+
+Make sure to run `node ./scripts/format.mjs`
+
