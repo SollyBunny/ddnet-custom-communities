@@ -1,5 +1,4 @@
 {
-	"$comment": "If you edit this file, make sure to run ./scripts/schema/compile.mjs",
 	"type": "object",
 	"properties": {
 		"communities": {
