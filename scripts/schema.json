@@ -27,6 +27,7 @@
 											"patternProperties": {
 												"^[a-zA-Z0-9-*+]+$": {
 													"type": "array",
+													"minItems": 1,
 													"items": { "type": "string" }
 												}
 											},
@@ -43,6 +44,7 @@
 					},
 					"contact_urls": {
 						"type": "array",
+						"minItems": 1,
 						"items": { "type": "string" }
 					}
 				},
