@@ -1,0 +1,21 @@
+{
+	"name": "MMOTee",
+	"contactUrls": [
+		"https://discord.gg/JE8wPRUwFC"
+	],
+	"regions": [
+		{
+			"name": "EUR",
+			"flagId": 905,
+			"servers": {
+				"MMOTee": [
+					"192.124.189.112:8310"
+				],
+				"DDrace": [
+					"89.46.1.18:8303",
+					"89.46.1.18:8304"
+				]
+			}
+		}
+	]
+}

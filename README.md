@@ -45,7 +45,7 @@ Do note that these rules can be bent both ways and are subject to mine and other
 
 1. Meet requirements
 2. Add icon to `icons` and it's license to `LICENSE.md`
-3. Add data to `custom-communities-ddnet-info.json`
+3. Add data to `data/<id>.json`
 4. Add community to `README.md`
 5. Create a PR
 

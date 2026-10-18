@@ -1,0 +1,29 @@
+name: Combine
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  combine:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+      - name: Combine data files
+        run: node ./scripts/combine.mjs
+      - name: Commit updated info
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add custom-communities-ddnet-info.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update custom-communities-ddnet-info.json"
+            git push
+          fi

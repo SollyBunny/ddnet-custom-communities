@@ -1,0 +1,29 @@
+{
+	"name": "Pointer's Labs",
+	"contactUrls": [
+		"https://matrix.to/#/#pointerslabs-space:matrix.org"
+	],
+	"regions": [
+		{
+			"name": "EUR",
+			"flagId": 905,
+			"servers": {
+				"Vanilla+": [
+					"135.125.206.178:8301",
+					"135.125.206.178:8302",
+					"135.125.206.178:8303"
+				],
+				"TestDDr": [
+					"135.125.206.178:8304"
+				],
+				"Kaizo": [
+					"135.125.206.178:8305",
+					"135.125.206.178:8307"
+				],
+				"InfClass": [
+					"135.125.206.178:8306"
+				]
+			}
+		}
+	]
+}
