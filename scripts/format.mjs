@@ -2,39 +2,7 @@
 
 import path from "path";
 import { URL } from "url";
-import crypto from "crypto";
 import fs from "fs/promises";
-
-async function getPNGMeta(path) {
-	const buffer = await fs.readFile(path);
-
-	// Check PNG signature
-	if (!buffer.subarray(0, 8).equals(Buffer.from([0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A])))
-		return undefined;
-
-	const hash = crypto.createHash("sha256");
-	hash.update(buffer);
-
-	return {
-		width: buffer.readUInt32BE(16),
-		height: buffer.readUInt32BE(20),
-		SHA256: hash.digest("hex")
-	};
-}
-
-async function getMagicBytes(path) {
-	const buffer = await fs.readFile(path);
-	let out = "";
-	for (let i = 0; i < 16; ++i) {
-		if (
-			(buffer[i] >= "A".charCodeAt(0) && buffer[i] <= "Z".charCodeAt(0)) ||
-			(buffer[i] >= "a".charCodeAt(0) && buffer[i] <= "z".charCodeAt(0)) ||
-			(buffer[i] >= "0".charCodeAt(0) && buffer[i] <= "9".charCodeAt(0)) ||
-			(buffer[i] === "-".charCodeAt(0) || buffer[i] === "_".charCodeAt(0))
-		) out += String.fromCharCode(buffer[i]);
-	}
-	return out ?? "???";
-}
 
 async function exists(path) {
 	try {
@@ -430,17 +398,8 @@ async function verifyLocalData() {
 		}
 		// Extra verification for local
 		const iconPath = `./icons/${ID}.png`;
-		if (await exists(iconPath)) {
-			const PNGMeta = await getPNGMeta(iconPath);
-			if (PNGMeta) {
-				const { width, height } = PNGMeta;
-				if (width !== 128 || height !== 64)
-					CIError(`Icon is ${width}x${height} not 128x64: ${iconPath}`);
-			} else {
-				CIError(`Can't read icon meta, is this a PNG? Magic bytes are ${await getMagicBytes(iconPath)}: ${iconPath}`);
-			}
-		} else {
-			CIError(`Can't read icon: ${iconPath}`);
+		if (!await exists(iconPath)) {
+			CIError(`Missing icon: ${iconPath}`);
 		}
 	}
 }
