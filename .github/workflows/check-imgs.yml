@@ -1,0 +1,18 @@
+name: Check images
+
+on:
+  push:
+    branches: ["*"]
+  pull_request:
+    branches: ["*"]
+
+jobs:
+  check-imgs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Install tcc
+        run: sudo apt-get update && sudo apt-get install -y tcc
+      - name: Run image check
+        run: ./scripts/check-imgs.sh

@@ -1,4 +1,4 @@
-name: Format
+name: Check format
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: ["*"]
 
 jobs:
-  format:
+  check-format:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
