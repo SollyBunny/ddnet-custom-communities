@@ -242,7 +242,7 @@
 			"name": "cazar",
 			"has_finishes": false,
 			"icon": {
-				"sha256": "299520ef20a309f61bf07a77a60fbb8907a04ba89d1f7b9680553edc689d3f3d",
+				"sha256": "b66ec28353b15c06f844abe6175c74641e8d8caf5a676a06559268641389181d",
 				"url": "https://raw.githubusercontent.com/TaterClient/ddnet-custom-communities/refs/heads/main/icons/cazar.png",
 				"servers": [
 					{
